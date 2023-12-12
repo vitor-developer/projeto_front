@@ -1,5 +1,53 @@
-#titulo {
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
 
+#titulo {
+    width: 95%;
+    margin: 0px 2.5%;
+    background-color: #EEF8EB80;
+    border-radius: 10px;
+}
+
+#titulo h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+#navegacao {
+    display: flex;
+    justify-content: center;
+    margin-top: -8vh;
+}
+
+#titulo ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#titulo li {
+    list-style-type: none;
+}
+
+#titulo li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    color: black;
+    background-color: #058489;
+    padding: 5px 10px;
+    margin: 3px 5px;
+    border-radius: 10px;
 }
 
 #article {

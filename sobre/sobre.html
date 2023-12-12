@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sobre </title>
-    <link rel="stylesheet" href="sobre.css">
+    <link rel="stylesheet" href="../css/sobre.css">
 </head>
 <body>
     <div id="titulo">
         <h1> TERESINA </h1>
-        <ul>
-            <li> INICIO </li>
-            <li> TURISMO </li>
-            <li> SOBRE </li>
-            <li> EVENTOS </li>
-            <li> SUPORTE </li>
-        </ul>
+        <div id="container">
+            <svg width="400" height="180">
+                <defs>
+                    <marker id="diamond" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+                        <path d="M 0 5 L 5 10 L 10 5 L 5 0 Z" fill="#000"/>
+                    </marker>
+                </defs>
+                <line x1="50" y1="50" x2="350" y2="50" stroke="#000000" stroke-width="2" marker-start="url(#diamond)" marker-end="url(#diamond)" />
+            </svg>
+        </div>
+        <div id="navegacao">
+            <ul>
+                <li> <a href="#"> INICIO </a> </li>
+                <li> <a href="#"> TURISMO </a> </li>
+                <li> <a href="#"> SOBRE </a> </li>
+                <li> <a href="#"> EVENTOS </a> </li>
+                <li> <a href="#"> SUPORTE </a> </li>
+            </ul>
+        </div>
     </div>
     <div id="article">
         <!--
