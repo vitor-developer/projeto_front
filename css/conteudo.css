@@ -1,11 +1,14 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-image: url(../imagens/Foto_01.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 #titulo {
     width: 95%;
     margin: 0px 2.5%;
-    background-color: #EEF8EB80;
+    background-color: #EEF8EB33;
     border-radius: 10px;
 }
 
