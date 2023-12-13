@@ -43,6 +43,11 @@ body {
     list-style-type: none;
 }
 
+#titulo li :hover{
+    transition: all .3s ease-in-out;
+    background-color: #FFD700;
+}
+
 #titulo li a {
     font-size: 14px;
     font-weight: 700;
@@ -56,12 +61,34 @@ body {
 }
 
 #article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEF8EB33;
+    margin: 0px 2.5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
+#artigo-um {
+    float: right;
+    font-size: 15px;
+    width: 60%;
+}
+
+#artigo-dois {
+    float: left;
+    font-size: 11px;
+    width: 40%;
 }
 
 #footer {
-    position: absolute;
+    position: relative;
+    display: inline-block;
     width: 100%;
+    margin-bottom: -10px;
     bottom: 0;
     background-color: black;
     line-height: 50%;

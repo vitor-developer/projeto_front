@@ -45,7 +45,7 @@ body {
 
 #titulo li :hover{
     transition: all .3s ease-in-out;
-    background-color: #daa520;
+    background-color: #FFD700;
 }
 
 #titulo li a {
