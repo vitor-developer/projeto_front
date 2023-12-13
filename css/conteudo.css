@@ -9,6 +9,7 @@ body {
 #titulo {
     width: 95%;
     margin: 0px 2.5%;
+    margin-top: -15px;
     background-color: #EEF8EB33;
     border-radius: 10px;
 }
@@ -68,6 +69,7 @@ body {
 
 #footer-menu {
     float: right;
+    margin-right: 5px;
 }
 
 #footer-menu ul {
@@ -90,6 +92,7 @@ body {
 #footer-text {
     float: left;
     margin-top: 15px;
+    margin-left: 5px;
 }
 
 #footer span {
