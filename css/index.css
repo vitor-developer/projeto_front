@@ -74,14 +74,26 @@ body {
 
 #artigo-um {
     float: right;
+    margin: 5px;
+    text-align: justify;
     font-size: 15px;
     width: 60%;
 }
 
+#artigo-um h2{
+    text-align: center;
+}
+
 #artigo-dois {
     float: left;
+    margin: 5px;
+    text-align: justify;
     font-size: 11px;
     width: 40%;
+}
+
+#artigo-dois h3{
+    text-align: center;
 }
 
 #footer {
