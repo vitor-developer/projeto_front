@@ -60,7 +60,9 @@ body {
 }
 
 #footer {
-    position: absolute;
+    position: relative;
+    display: inline-block;
+    margin-bottom: -10px;
     width: 100%;
     bottom: 0;
     background-color: black;
