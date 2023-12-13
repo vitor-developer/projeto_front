@@ -43,6 +43,11 @@ body {
     list-style-type: none;
 }
 
+#titulo li :hover{
+    transition: all .3s ease-in-out;
+    background-color: #daa520;
+}
+
 #titulo li a {
     font-size: 14px;
     font-weight: 700;
