@@ -62,6 +62,11 @@ body {
     border-radius: 10px;
 }
 
+#menu-rapido {
+    transition: all .3s ease-in-out;
+    background-color: #058489;
+}
+
 main{
     display: flex;
     border-radius: 10px;

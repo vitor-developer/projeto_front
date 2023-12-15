@@ -12,6 +12,11 @@ html{
     scroll-behavior: smooth;
 }
 
+#menu-rapido {
+    transition: all .3s ease-in-out;
+    background-color: #058489;
+}
+
 #titulo {
     width: 95%;
     margin: 0px 2.5%;

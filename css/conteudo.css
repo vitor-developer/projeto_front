@@ -25,6 +25,11 @@ figcaption {
     border-radius: 0px 0px 10px 10px;
 }
 
+#menu-rapido {
+    transition: all .3s ease-in-out;
+    background-color: #058489;
+}
+
 #titulo {
     width: 95%;
     margin: 0px 2.5%;
