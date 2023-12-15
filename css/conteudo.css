@@ -6,6 +6,19 @@ body {
     margin: 0;
 }
 
+figcaption {
+    margin-top: -5px ;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 5px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+
 #titulo {
     width: 95%;
     margin: 0px 2.5%;
@@ -215,6 +228,12 @@ body {
 
 #artigo-dois ul {
     float: left;
+    width: 45%;
+}
+
+#artigo-dois ul li {
+    text-align: justify;
+    font-size: 20px;
 }
 
 #artigo-um, #artigo-dois, #artigo-tres {
