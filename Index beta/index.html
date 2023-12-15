@@ -7,15 +7,28 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <nav id="menu-horizontal">
-        <h2>TERESINA</h2>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li class="menu-option"><a href="#">Turismo</a></li>
-            <li><a href="#">Eventos</a></li>
-            <li><a href="#">Suporte</a></li>
-        </ul>
-    </nav>
+    <div id="titulo">
+        <h1> TERESINA </h1>
+        <div id="container">
+            <svg width="400" height="180">
+                <defs>
+                    <marker id="diamond" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+                        <path d="M 0 5 L 5 10 L 10 5 L 5 0 Z" fill="#000"/>
+                    </marker>
+                </defs>
+                <line x1="50" y1="50" x2="350" y2="50" stroke="#000000" stroke-width="2" marker-start="url(#diamond)" marker-end="url(#diamond)" />
+            </svg>
+        </div>
+        <div id="navegacao">
+            <ul>
+                <li> <a href="#"> INICIO </a> </li>
+                <li class="menu-option"> <a href="#"> TURISMO </a> </li>
+                <li> <a href="#"> SOBRE </a> </li>
+                <li> <a href="#"> EVENTOS </a> </li>
+                <li> <a href="#"> SUPORTE </a> </li>
+            </ul>
+        </div>
+    </div>
     <div id="menu-vertical">
         <ul>
             <li><a href="#">Ponte Estaiada</a></li>
@@ -24,29 +37,43 @@
         </ul>
     </div>
     <main>
-        <div class="container">
-            <h2>Título da imagem</h2>
-            <img src="https://static.significados.com.br/foto/paisagem-natural-og.jpg" alt="Image">
+        <div class="container1">
+            <h2>PONTE ESTAIADA</h2>
+            <img src="../imagens/Foto_01.jpg" alt="Image">
         </div>
         <div class="container2">
             <div class="carousel">
-                <img src="https://static.escolakids.uol.com.br/2019/07/paisagem-natural.jpg" alt="Image 1">
-                <img src="https://img.freepik.com/fotos-premium/paisagem-natural-incrivelmente-bela-de-um-lago-de-montanha-com-uma-superficie-de-agua-turquesa-e-cintilante_979520-4743.jpg?w=2000" alt="Image 2">
-                <img src="https://static.escolakids.uol.com.br/2019/07/grande-muralha-china%5B1%5D.jpg" alt="Image 3">
-                <!-- Adicione mais imagens conforme necessário -->
+                <img src="../imagens/Foto_05.webp" alt="Image 1">
+                <img src="../imagens/Foto_06.jpg" alt="Image 2">
+                <img src="../imagens/Foto_07.jpg" alt="Image 3">
             </div>
-            <p>As paisagens são cenas, locais ou imagens que retratam a paisagem, composta por elementos naturais como a geografia, as águas, os animais, a vegetação, e elementos culturais como as construções, os povos, os sistemas de crenças, os usos e costumes. A paisagem é vista como uma experiência que vai além da percepção de elementos isolados e individuais.
+            <p> 363 metros de extensão e 28 metros de largura, seis pistas de rolamento, duas ciclovias e mirante em estrutura metálica de 95 metros de altura, a Ponte Estaiada Mestre João Isidoro França, inaugurada nesta terça-feira (30), em Teresina (PI), além de novo cartão-postal da cidade, facilitará os deslocamentos entre as regiões central e leste de Teresina. A expectativa da prefeitura da cidade é que 45 mil automóveis trafeguem pela ponte diariamente. O Ministério do Turismo (MTur) investiu R 26,42 milhões na obra, orçada em R 87,7 milhões.
 
-                Ao longo da história, as paisagens foram uma inspiração para muitos artistas e filósofos, que buscavam entender a beleza e a harmonia das formas e cores da natureza.
+                A proposta é transformar a via sobre o Rio Poti em novo ponto turístico da cidade. Do alto do mirante, com capacidade para 100 pessoas, é possível ter uma vista panorâmica de Teresina. O acesso ao alto da torre é realizado por meio de dois elevadores.
                 
-                Por exemplo, a paisagem é representada na pintura, na fotografia, no desenho, na gravura, no cinema e em outros meios artísticos.
+                “Essa é uma obra marcante. Quando vi o projeto, logo percebi que não se tratava apenas de uma ponte, mas um novo cartão-postal da capital”, disse o governador do Piauí, Wellington Dias, durante a inauguração da ponte.
                 
-                As paisagens também podem ser vistas como espaços onde se pode experimentar e expressar diferentes emoções e sentimentos, como a tranquilidade, a serenidade, a força, a majestade, a harmonia entre os seres vivos, etc.
+                Já o prefeito de Teresina, Silvio Mendes, ressaltou que a “obra, fruto do suor de muitos trabalhadores, fala por si só e está pronta para ser usufruída pela população local”. Também participaram da cerimônia o deputado federal, Átila Lira, e representantes do governo estadual e local.
                 
-                Ao estudar a paisagem, é possível perceber e entender as mudanças no ambiente, no clima, na geologia, na biodiversidade, e como isso afeta a vida humana e a vida dos animais.</p>
+                De 2003 a 2008, o MTur investiu R 175,6 milhões no estado do Piauí, em obras de infraestrutura turística e qualificação profissional. Somente em Teresina, entre 2003 e 2009, foram investidos R 63,5 milhões em obras de infraestrutura.
+                </p>
         </div>
     </main>
-    <footer>© 2023. Todos os direitos reservados.</footer>
+    
+    <div id="footer">
+        <div id="footer-menu">
+            <ul>
+                <li> <a href="#"> INICIO </a> </li>
+                <li> <a href="#"> TURISMO </a> </li>
+                <li> <a href="#"> SOBRE </a> </li>
+                <li> <a href="#"> EVENTOS </a> </li>
+                <li> <a href="#"> SUPORTE </a> </li>
+            </ul>
+        </div>
+        <div id="footer-text">
+            <span>&copy; 2023, Todos os direitos reservados. Desenvolvido por alunos do IFPI.</span>
+        </div>
+    </div>
     <script src="../js/scripts.js"></script>
 </body>
 </html>
