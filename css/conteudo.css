@@ -60,6 +60,149 @@ body {
     border-radius: 10px;
 }
 
+#C01 {
+    width: 380px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C01 img {
+    width: 380px;
+    height: 480px;
+}
+
+#C02 {
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C02 img {
+    width: 600px;
+    height: 400px;
+}
+
+#C03 {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C03 img {
+    width: 300px;
+    height: 200px;
+}
+
+#C04 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C04 img {
+    width: 300px;
+    height: 200px;
+}
+
+#C05 {
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C05 img {
+    width: 600px;
+    height: 400px;
+}
+
+#C08 {
+    float: right;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C08 img {
+    width: 400px;
+    height: 600px;
+}
+
+#C09 {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C09 img {
+    width: 500px;
+}
+
+#C11 {
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C11 img {
+    width: 600px;
+    height: 400px;
+}
+
+#C12 {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C12 img {
+    width: 300px;
+    height: 200px;
+}
+
+#C13 {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C13 img{
+    width: 200px;
+    height: 150px;
+}
+
+#C14 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #058489;
+}
+
+#C14 img {
+    width: 300px;
+    height: 200px;
+}
+
 #article {
     display: inline-block;
     background-color: #EEF8EB33;
@@ -68,6 +211,10 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+#artigo-dois ul {
+    float: left;
 }
 
 #artigo-um, #artigo-dois, #artigo-tres {
@@ -81,8 +228,8 @@ body {
 }
 
 #artigo-um p, #artigo-dois p, #artigo-tres p {
-    margin-top: -15px;
     text-align: justify;
+    text-indent: 15px;
     font-size: 20px;
 }
 
