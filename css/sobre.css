@@ -10,7 +10,7 @@ body {
     width: 95%;
     margin: 0px 2.5%;
     margin-top: -15px;
-    background-color: #EEF8EB33;
+    background-color: #eef8eb57;
     border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EEF8EB33;
+    background-color: #eef8eb57;
     margin: 0px 2.5%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -73,11 +73,18 @@ body {
 }
 
 #artigo-um {
-    font-size: 15px;
+    font-size: larger;
 }
 
-#artigo-um h2 {
+#artigo-um h1 {
     text-align: center;
+}
+#artigo-um h2 {
+    font-size: x-large;
+    text-align: center;
+}
+#artigo-um p{
+    font-weight: 500;
 }
 
 #footer {
