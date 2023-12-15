@@ -65,6 +65,7 @@ figcaption {
 #titulo li :hover{
     transition: all .3s ease-in-out;
     background-color: #FFD700;
+    box-shadow: 0px 5px 5px black;
 }
 
 #titulo li a {
